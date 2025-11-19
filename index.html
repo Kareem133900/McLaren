@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ماكلارين | قمة الأداء والابتكار</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">McLaren</div>
+        
+        <button class="hamburger-menu" aria-label="قائمة التنقل">
+            <i class="fa fa-bars"></i>
+        </button>
+        
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#heritage">تراثنا</a></li>
+                <li><a href="#automotive">السيارات</a></li>
+                <li><a href="#racing">السباقات</a></li>
+                <li><a href="#contact" class="cta-button">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        
+        <video autoplay loop muted playsinline id="hero-video">
+            <source src="طلب_فيديو_رائع_لتسجيل_دخول_السيارة.mp4" type="video/mp4">
+            متصفحك لا يدعم عنصر الفيديو.
+        </video>
+        
+        <div class="video-overlay"></div>
+        
+        <div class="hero-content">
+            <h1>ماكلارين: حيث يلتقي الأداء بالتاريخ</h1>
+            <p>اكتشف عالمًا من الهندسة الدقيقة، السرعة الفائقة، والتصميم الذي لا يضاهى.</p>
+            <a href="#automotive" class="main-cta-btn">استكشف سياراتنا</a>
+        </div>
+    </section>
+
+    <section id="heritage" class="heritage-section section-padding">
+        <div class="container">
+            <div class="heritage-content">
+                <h2>تراث يعيد تعريف السرعة</h2>
+                <p>منذ تأسيسها على يد بروس ماكلارين، تجسد علامتنا التجارية شغفًا لا يتوقف بالابتكار وروحًا رائدة في السباقات. كل سيارة تحمل اسم ماكلارين هي نتاج عقود من الخبرة على حلبات السباق العالمية، مما يمنحها الحمض النووي للأداء الخارق.</p>
+                <a href="#racing" class="secondary-btn">تعرف على تاريخنا في السباقات</a>
+            </div>
+            <div class="heritage-image">
+                <img src="photo/mclaren-heritage.jpg" alt="تراث ماكلارين العريق">
+            </div>
+        </div>
+    </section>
+
+    <section id="automotive" class="automotive-section section-padding">
+        <div class="container">
+            <h2 class="section-title">قمة الهندسة البريطانية</h2>
+            <p class="section-description">استكشف مجموعتنا الاستثنائية من السيارات الرياضية الفاخرة التي تمزج بين الأداء الذي يحبس الأنفاس والجمال الخالد.</p>
+            
+            <div class="car-grid">
+                
+                <div class="car-card" data-model="720S">
+                    <img src="photo/mclaren-720s.jpg" alt="ماكلارين 720S">
+                    <h3>ماكلارين 720S</h3>
+                    <p>تحفة فنية في الأداء، تتميز بقوة 710 حصان وتصميم هوائي فريد. تجربة قيادة لا مثيل لها.</p>
+                    <a href="#" class="view-details-btn">اكتشف 720S</a>
+                </div>
+
+                <div class="car-card" data-model="Artura">
+                    <img src="photo/mclaren-artura.jpg" alt="ماكلارين آرتورا">
+                    <h3>ماكلارين آرتورا</h3>
+                    <p>جيل جديد من السيارات الهجينة عالية الأداء. تكنولوجيا مستقبلية وقيادة مذهلة.</p>
+                    <a href="#" class="view-details-btn">اكتشف آرتورا</a>
+                </div>
+
+                <div class="car-card" data-model="Senna">
+                    <img src="photo/mclaren-senna.jpg" alt="ماكلارين سينا">
+                    <h3>ماكلارين سينا</h3>
+                    <p>مصممة للحلبات، مع أداء لا يضاهى يجسد إرث أسطورة السباقات إيرتون سينا.</p>
+                    <a href="#" class="view-details-btn">اكتشف سينا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="racing" class="racing-section section-padding">
+        <div class="container">
+            <h2 class="section-title">قلب السباقات ينبض في كل سيارة</h2>
+            <p class="section-description">تجسد ماكلارين روح الفوز في كل سباق فورمولا 1. تابع أحدث أخبار الفريق، السائقين، والإنجازات.</p>
+            <div class="race-updates">
+                <p id="race-status">آخر التحديثات: ماكلارين تواصل التألق في الموسم الحالي!</p>
+                <button id="race-info-btn" class="main-cta-btn">عرض أحدث أخبار F1</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <p class="section-description">هل لديك استفسار؟ هل ترغب في معرفة المزيد عن سياراتنا؟ نحن هنا لخدمتك.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="اسمك الكامل" required>
+                <input type="email" placeholder="بريدك الإلكتروني" required>
+                <textarea placeholder="رسالتك" rows="5" required></textarea>
+                <button type="submit" class="main-cta-btn">إرسال الرسالة</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 موقع ماكلارين (تسويق احترافي). جميع الحقوق محفوظة.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
